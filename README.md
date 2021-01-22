@@ -9,7 +9,8 @@
 - [ ] Survey the OPID function and any relevant functions
 - [ ] Upload functions in assembly and c++ to /opid
 - [ ] Prepare a patch to bypass the check and/or the failure condition for OPID
-- [ ] 
+- [ ] Confirm functionality for the OPID patch
+- [ ] Find a way to distribute our patched binary - perhaps a script that patches it for us
 
 
 #### OPID
