@@ -27,7 +27,7 @@ We focus (for now) on two things; the Anti Rollback Check or ARB Check, and the 
 
   To avoid copyright claims, I'm reraining from hosting those two files in the repository. These are the versions we are working with:
 - LGUP 1.16 LAB 
-- LGUP_Common.dll 17 patched, check out the LGUP_Common.dll from the tool in [this xda thread](https://forum.xda-developers.com/t/lgup-flash-utility-based-on-lgup-1-16-cmd-and-lgup-1-17-lgup_common-dll.4112121/)
+- LGUP_Common.dll 1.17 patched, check out the LGUP_Common.dll from the tool in [this xda thread](https://forum.xda-developers.com/t/lgup-flash-utility-based-on-lgup-1-16-cmd-and-lgup-1-17-lgup_common-dll.4112121/)
 
 
 ## Rundown
