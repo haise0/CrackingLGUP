@@ -46,7 +46,7 @@ We focus (for now) on two things; the Anti Rollback Check or ARB Check, and the 
   The Anti Rollback Check is a function that checks the version of ARB on the device and compares it to that of the image being flashed, where if the device version is higher than the image's version, it prompts the user if they're sure they want to continue, and if the device version is lower, it likely updates it with the image's version.
 - It is currently unconfirmed whether or not the binary's version of ARB is also compared to that of the device itself. 
 - It is currently unconfirmed what the conditions are to fail the ARB check. \
-  Some notes:
+Some notes:
   The option to prompt the user for certainty is in the "second half" of the entire function, and I have a suspicion that it is a locked feature for carriers or developers, either hidden behind code embedded into the first half, which at the moment only has the confirmed functionality of telling the user the check failed, or hidden in another function that is being called, at any point before the certainty prompt is sent but likely in the first half. In both sections there are several other external functions being called upon. Labelling these variables and functions are likely crucial to understanding what's happening.
 
 ### OPID Check
