@@ -6,6 +6,10 @@
 - [ ] Make sense of relevant functions and variables
 - [ ] Prepare a patch to bypass the failure of the ARB check
 - [ ] Confirm functionality of the patch 
+- [ ] Survey the OPID function and any relevant functions
+- [ ] Upload functions in assembly and c++ to /opid
+- [ ] Prepare a patch to bypass the check and/or the failure condition for OPID
+- [ ] 
 
 
 #### OPID
@@ -14,6 +18,7 @@
 ### Future
 [] - Extract and patch bootloader with Magisk manager and get them back into a `.kdz`
   [] - Modify [kdztools](https://github.com/haise0/kdztools) and tell it how to decompile the new OPID partition and recompile the newer .kdz file formats.
+  [] - Make sure that we build a .kdz that LGUP is okay with; if we can't, then carefully break LGUP to accept any .kdz
 [] - tbd
 
 ## Summary
