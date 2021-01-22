@@ -6,15 +6,14 @@
 - [ ] Make sense of relevant functions and variables
 - [ ] Prepare a patch to bypass the failure of the ARB check
 - [ ] Confirm functionality of the patch 
+- [ ] Find a way to distribute our patch
+
+#### OPID
 - [ ] Survey the OPID function and any relevant functions
 - [ ] Upload functions in assembly and c++ to /opid
 - [ ] Prepare a patch to bypass the check and/or the failure condition for OPID
 - [ ] Confirm functionality for the OPID patch
 - [ ] Find a way to distribute our patched binary - perhaps a script that patches it for us
-
-
-#### OPID
-- [ ] -tbd-
 
 ### Future
 - [ ] Extract and patch bootloader with Magisk manager and get them back into a `.kdz`
@@ -25,16 +24,14 @@
 ## Summary
   A project dedicated to making sense of the `LGUP_Common.dll` binary file from LGE's LGUP software, with the goal in mind of freeing some built-in functionality to allow for firmware modifications of the LG Stylo 6, and in the future, potentially other new LG mobile devices. This includes root, carrier unlocking, potential bootloader unlocking, and more.
 
-
 ### Explanation
 We focus (for now) on two things; the Anti Rollback Check or ARB Check, and the OPID check. These functions are in the .dll binary.
 - We target the ARB Check because it an obvious restraint when it comes to flashing different firmware images. Downgrading can be a big part of that process, and there are people (for some reason) who prefer older versions. 
 - We target the OPID verification to achieve the ability to carrier unlock; LGUP will pass an error telling you that you can't. There are several possible ways to get around this.
 
-  To avoid copyright claims, I'm reraining from hosting those two files in the repository. These are the versions we are working with:
+  To avoid copyright claims, I'm refraining from hosting those two files in the repository. These are the versions we are working with:
 - LGUP 1.16 LAB [from here](https://androidfilehost.com/?fid=4349826312261753003)
 - LGUP_Common.dll 1.17 patched, check out the LGUP_Common.dll from the tool in [this xda thread](https://forum.xda-developers.com/t/lgup-flash-utility-based-on-lgup-1-16-cmd-and-lgup-1-17-lgup_common-dll.4112121/)
-
 
 ## Rundown
 ### DLL Binary
