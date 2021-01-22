@@ -14,13 +14,13 @@
 
 
 #### OPID
-[] - tbd
+- [ ] -tbd-
 
 ### Future
-[] - Extract and patch bootloader with Magisk manager and get them back into a `.kdz`
-  [] - Modify [kdztools](https://github.com/haise0/kdztools) and tell it how to decompile the new OPID partition and recompile the newer .kdz file formats.
-  [] - Make sure that we build a .kdz that LGUP is okay with; if we can't, then carefully break LGUP to accept any .kdz
-[] - tbd
+- [ ] Extract and patch bootloader with Magisk manager and get them back into a `.kdz`
+  - [ ] Modify [kdztools](https://github.com/haise0/kdztools) and tell it how to decompile the new OPID partition and recompile the newer .kdz file formats.
+  - [ ] Make sure that we build a .kdz that LGUP is okay with; if we can't, then carefully break LGUP to accept any .kdz
+- [ ] -tbd-
 
 ## Summary
   A project dedicated to making sense of the `LGUP_Common.dll` binary file from LGE's LGUP software, with the goal in mind of freeing some built-in functionality to allow for firmware modifications of the LG Stylo 6, and in the future, potentially other new LG mobile devices. This includes root, carrier unlocking, potential bootloader unlocking, and more.
