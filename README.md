@@ -59,3 +59,6 @@ Have not looked into that section yet. Tackling the ARB problem first.
   - making sense of the assembly
   - providing relevant information to the readme 
 
+## Changelog / Present Objective
+- Currently working on disabling DLL signature verification to skip "The file ___ is not signed" error
+  - 
