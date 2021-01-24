@@ -2,6 +2,11 @@
 
 ## To-Do
 ### Current
+#### Signature Verification
+Before I can do anything I need to break the signature verification and fool it into thinking unsigned/wrongly signed DLLs are actually signed
+- [ ] Trick LGUP into thinking unsigned DLL is signed
+- [ ] Fix other errors
+
 #### ARB
 - [ ] Make sense of relevant functions and variables
 - [ ] Prepare a patch to bypass the failure of the ARB check
