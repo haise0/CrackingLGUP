@@ -63,3 +63,18 @@ Have not looked into that section yet. Tackling the ARB problem first.
   - making sense of the C++
   - making sense of the assembly
   - providing relevant information to the readme 
+  
+  
+## Donations typically go towards caffeine, which is directly transmutated into **determination.** 
+They are greatly appreciated, and typically help further progress along - and are also a great morale boost. You can also feel free to send me a PM, too, if you're ever curious about progress behind the scenes, would like to talk reverse engineering, or have any questions or contributions. 
+- Please don't reach out to me with pointless questions or something you can just Google. I'm not a search engine. 
+- I would love to talk with other developers having anything to do with LGUP, LAF, KDZ extraction/compilation, or anything else having to do with anything possibly relevant.
+  - My Discord: Haise#4915
+Any and all donations, however small or large, are massively appreciated and I am always personally grateful for anything and everything. As long as you're patient I can assure you that progress is being made and that I have a clear goal in mind: **break LGUP just right.**
+- [Send me **DETERMINATION**](https://paypal.me/haisezero)
+
+## My Schedule
+  Development usually happens at night when I have more time on my hands, and you can expect repository updates once or twice a week - sometimes more often, sometimes less often. I am one person, working at my own pace on my own time, with the help of a couple others - although I am primarily the one driving the reverse engineering of LGUP.
+
+  I have this in mind as a personal reverse engineering project. I hope to influence the LG community on XDA as a whole, and that I can allow for LG device users to get their custom functionality back again, and take control of their devices. As time goes on, I'll add some other useful tools here, too, all based off of anything having to do with rooting and unlocking LG devices; from a downloader used for downloading KDZs from LG servers, to a kdztools fork updated for the latest KDZ formats, and much more.
+
