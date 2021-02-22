@@ -1,4 +1,7 @@
 # The Project
+# NOTICE:
+## This project has been archived and is obsolete. It may be unarchived and updated in the future, but for now all progress is being tracked elsewhere.
+
 
 ## To-Do
 ### Current
